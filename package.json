@@ -1,0 +1,21 @@
+{
+  "name": "ariadne-federation-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gateway.js",
+  "dependencies": {
+    "@apollo/gateway": "^0.11.7",
+    "apollo-server": "^2.9.16",
+    "concurrently": "^5.1.0",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start-gateway": "nodemon gateway.js",
+    "start-service-users": "nodemon microservices/service1.py",
+    "start-service-reviews": "nodemon microservices/service2.py",
+    "start-service-products": "nodemon microservices/service3.py",
+    "start-services": "concurrently \"npm:start-service-*\""
+  }
+}
