@@ -1,0 +1,2 @@
+https://github.com/mirumee/ariadne/archive/master.zip
+uvicorn
