@@ -13,9 +13,9 @@
   "devDependencies": {},
   "scripts": {
     "start-gateway": "nodemon gateway.js",
-    "start-service-users": "nodemon microservices/service1.py",
-    "start-service-reviews": "nodemon microservices/service2.py",
-    "start-service-products": "nodemon microservices/service3.py",
+    "start-service-users": "nodemon microservices/service_users.py",
+    "start-service-reviews": "nodemon microservices/service_reviews.py",
+    "start-service-products": "nodemon microservices/service_products.py",
     "start-services": "concurrently \"npm:start-service-*\""
   }
 }
