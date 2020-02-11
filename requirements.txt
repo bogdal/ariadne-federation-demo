@@ -1,2 +1,2 @@
-https://github.com/mirumee/ariadne/archive/master.zip
+ariadne>=0.10
 uvicorn
